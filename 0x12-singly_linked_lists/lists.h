@@ -1,9 +1,6 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
-#include <stddef.h>
-#include <stdlib.h>
+#ifndef LISTS_H
+#define LISTS_H
+#include<stdio.h>
 int _putchar(char c);
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
